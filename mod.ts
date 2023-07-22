@@ -1,4 +1,4 @@
-:const matcher = /--(\S*)=(?:(?:"([^"]*)")|(?:'([^']*)')|([^\s]+))/img
+const matcher = /--(\S*)=(?:(?:"([^"]*)")|(?:'([^']*)')|([^\s]+))/img
 const isNumber = /^(\d+)$/
 const isBoolean = /^(true|false)$/
 
