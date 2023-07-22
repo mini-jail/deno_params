@@ -1,5 +1,5 @@
 const matcher = /--(\S*)=(?:(?:"([^"]*)")|(?:'([^']*)')|([^\s]+))/img
-const isNumber = /^(\d+)$/;
+const isNumber = /^(\d+)$/
 const isBoolean = /^(true|false)$/
 
 export function getParams(): Record<string, string | number | boolean | undefined> {
